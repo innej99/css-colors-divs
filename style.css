@@ -1,0 +1,66 @@
+body {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  background-color: black;
+}
+
+h1 {
+  padding-top: 80px;
+}
+
+#blue {
+  background-color: #8fe0d5;
+  height: 200px;
+  transition: 2s;
+}
+
+#blue:hover {
+  background-color: #05368b;
+  transition: 2s;
+}
+
+#green {
+  background-color: #002302;
+  height: 200px;
+  transition: 3s;
+}
+
+#green:hover {
+  background-color: #69e07b;
+  transition: 3s;
+}
+
+#iu {
+  background-color: #a61600;
+  color: #ffffff;
+  height: 200px;
+  transition: 3s;
+}
+
+#iu:hover {
+  background-color: #ffffff;
+  color: #a61600;
+  height: 200px;
+  transition: 3s;
+}
+
+.blacktowhite {
+  color: black;
+  transition: 3s;
+}
+
+.blacktowhite:hover {
+  color: white;
+  transition: 3s;
+}
+
+.whitetoblack {
+  color: white;
+  transition: 3s;
+}
+
+.whitetoblack:hover {
+  color: black;
+  transition: 3s;
+}
